@@ -1,0 +1,49 @@
+.container {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100%;
+  row-gap: 32px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(27, 40, 34, 1);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.mentorid {
+  background-color: rgba(27, 40, 34, 1);
+  border-radius: 16px;
+  height: 56px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  width: 100%;
+
+  &::placeholder {
+    color: rgba(80, 110, 97, 1);
+  }
+}
+
+.transfer {
+  margin-top: auto;
+  height: 56px;
+  background: rgba(0, 146, 102, 1);
+  width: 100%;
+  border-radius: 100px;
+}

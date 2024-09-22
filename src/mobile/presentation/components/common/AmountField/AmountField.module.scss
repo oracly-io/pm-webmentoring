@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-color: #271937;
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.amount {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.right {
+  margin-left: 5px;
+}
+
+.left {
+  margin-right: 5px;
+}

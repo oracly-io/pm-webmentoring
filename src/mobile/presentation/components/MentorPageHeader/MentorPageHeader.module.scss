@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  min-width: fit-content;
+  height: 152px;
+  padding: 24px 24px 0 24px;
+  background-color: #1C2522;
+  border-radius: 32px;
+}
+
+.statisticsBtn {
+  width: 40px;
+  height: 40px;
+}
+
+div.spinner {
+  width: 18px;
+  height: 18px;
+}

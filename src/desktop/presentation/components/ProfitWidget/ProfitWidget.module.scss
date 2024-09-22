@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+  width: 100%;
+  padding: 48px 47px 112px 33px;
+  border-radius: 32px;
+  background-color: #1C2522;
+}
+
+.divider {
+  width: 1px;
+  height: 56px;
+  margin: 0 32px;
+  background-color: #31352D;
+}
+
+.stats {
+  display: flex;
+  flex-basis: 78%;
+  justify-content: space-between;
+}
+
+div.spinner {
+  width: 18px;
+  height: 18px;
+}

@@ -1,0 +1,27 @@
+.claim {
+  width: auto;
+  height: 56px;
+  padding: 16px 40px 16px 14px;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #009266;
+  transition: background-color .3s linear;
+
+  &:hover {
+    background-color: #00AA77;
+  }
+
+  &:active {
+    background-color: #00CC8F;
+  }
+}
+
+.content {
+  margin-left: 16px;
+  color: #D0F3E7;
+}
+
+.currencyIcon {
+  background-color: #d2f0e6;
+}

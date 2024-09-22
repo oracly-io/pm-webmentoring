@@ -1,0 +1,23 @@
+.claim {
+  position: fixed;
+  right: 26px;
+  bottom: 19px;
+  width: auto;
+  padding: 0 22px;
+  background-color: #009266;
+  font-weight: 600;
+  font-size: 17px;
+  height: 56px;
+  border-radius: 100px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+  z-index: 86;
+}
+
+.content {
+  display: flex;
+  column-gap: 8px;
+}
+
+.modalBase {
+  height: auto;
+}

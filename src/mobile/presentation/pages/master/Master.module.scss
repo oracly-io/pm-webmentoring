@@ -1,0 +1,24 @@
+.master {
+  display: flex;
+  overflow-x: clip;
+  width: 100%;
+  min-height: 100vh;
+	background-color: var(--website-bg);
+  font-family: 'Proxima Nova', sans-serif;
+	font-style: normal;
+  font-weight: 500;
+  color: #fff;
+
+  & * {
+    box-sizing: border-box;
+  }
+}
+
+.webmentoring {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  margin-top: var(--header-height);
+  padding: 8px 8px 0 8px;
+}

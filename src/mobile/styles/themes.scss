@@ -1,0 +1,84 @@
+:root {
+  // sizeing
+  --header-height: 64px;  
+}
+
+.light {
+
+}
+
+.dark {
+  --website-bg: #171B1A;
+
+  // global header colors
+  --pm-gh-nickname-input-color: #FFFFFF;
+  --pm-gh-nickname-input-placeholder-color: #A3AFF2;
+  --pm-gh-nickname-input-placeholder-focus-color: #577CF9;
+  --pm-gh-nickname-input-border-color: #283F78;
+  --pm-gh-nickname-input-border-focus-color: #1F50F7;
+  --pm-gh-nickname-editicon-bg: transparent;
+  --pm-gh-nickname-editicon-bg-active: #3C538D;
+  --pm-gh-nickname-editicon-fill: #6381E7;
+  --pm-gh-nickname-editicon-fill-active: #92A7EC;
+  --pm-gh-nickname-save-bg: #1F50F7;
+  --pm-gh-nickname-save-bg-active: #305DF8;
+  --pm-gh-nickname-hint-bg: #2051F7;
+  --pm-gh-nickname-hint-close-bg: transparent;
+  --pm-gh-nickname-hint-close-bg-active: rgba(255,255,255,0.25);
+  --pm-gh-spinner-color: #87B9A7;
+  --pm-gh-copy-icon-color: #D0F3E7;
+  --pm-gh-copy-icon-color-hover: #87B9A7;
+  --pm-gh-copy-icon-color-active: #87B9A7;
+  --pm-gh-modal-overlay-bg: rgba(23, 27, 26, 0.75);
+  --pm-gh-notification-item-shadow: 0px 0px 20px 0px rgba(0,0,0,.3);
+  --pm-gh-notification-item-bg: linear-gradient(77.35deg, rgba(31, 68, 247, 1) 21%, rgba(87, 125, 255, 1) 97%);
+  --pm-gh-notification-item-icon-bg: #3F6AFF;
+  --pm-gh-notification-item-action-bg: #071226;
+  --pm-gh-invitation-link-bg: #23342C;
+  --pm-gh-invitation-link-color: #87B9A7;
+  --pm-gh-invitation-link-icon-fill: #87B9A7;
+  --pm-gh-dropdown-header-bg: #1C2522;
+  --pm-gh-dropdown-body-bg: #23342C;
+  --pm-gh-dropdown-option-bg: #23342c;
+  --pm-gh-dropdown-option-bg-active: #275F4A;
+  --pm-gh-feature-toggle-close-bg: transparent;
+  --pm-gh-feature-toggle-close-bg-active: #283F78;
+  --pm-gh-feature-toggle-close-border: #283F78;
+  --pm-gh-feature-toggle-close-border-active: #2F4782;
+  --pm-gh-network-modal-row-border-color: #283F78;
+  --pm-gh-network-modal-row-name-color: #D0D7FF;
+  --pm-gh-network-status-circle-bg: #141717;
+  --header-bg: #171B1A;
+  --navbar-icon-color: #D0F3E7;
+  --connect-button-bg-color: #275F4A;
+  --connect-bar-connector-background-color: #212F29;
+  --connect-bar-connector-background-color-hover: #293C33;
+  --connect-bar-connector-background-color-active: #28483B;
+  --profilebar-border-color: #23342C;
+  --profilebar-cash-bg-active: #1B4133;
+  --profilebar-cash-bg-parent-active: #414A38;
+  --profilebar-cash-color: #FFFFFF;
+  --profilebar-cash-dropdown-icon-color: #DFFBF1;
+  --profilebar-cash-dropdown-currency-bg: #1C2522;
+  --profilebar-cash-dropdown-option-currency-color: #87B9A7;
+  --profilebar-cash-diffrenece-bg: #1C2522;
+  --profilebar-cash-increase-color: #00A573;
+  --profilebar-cash-decrease-color: #F07750;
+  --statistics-bar-background-color: #171B1A;
+  --statistics-bar-close-icon-border-color: #23342C;
+  --statistics-bar-close-icon-border-color-active: #28483B;
+  --statistics-bar-close-icon-background-color: transparent;
+  --statistics-bar-close-icon-background-color-active: #293C33;
+  --statistics-bar-stats-border-color: #23342C;
+  --statistics-bar-stats-title-bg: #254437;
+  --statistics-bar-stats-table-bg: #23342C;
+  --statistics-bar-stats-table-secondary-color: #77A595;
+  --statistics-bar-stats-table-tr-border-color: #254437;
+  --statistics-bar-tab-bg-color: #23342C;
+  --statistics-bar-tab-border-color: #283F78;
+  --statistics-bar-tab-selected-bg-color: #1F50F7;
+  --statistics-bar-disconect-bg-color: var(--statistics-bar-background-color);
+  --statistics-bar-disconect-border-color: #23342C;
+  --statistics-bar-disconect-svg-fill: #ffffff;
+  --statistics-bar-disconect-text-color: #ffffff;
+}

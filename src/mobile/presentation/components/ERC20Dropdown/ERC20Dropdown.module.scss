@@ -1,0 +1,50 @@
+.header {
+  padding: 0;
+  background-color: none;
+}
+
+.icon {
+  display: none;
+}
+
+.optionRenderer {
+  display: flex;
+  align-items: center;
+  padding-right: 16px;
+  padding-left: 8px;
+}
+
+.optionBalance {
+  width: 40px;
+  height: 40px;
+  background-color: var(--profilebar-cash-dropdown-currency-bg);
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.optionValue {
+  &:active {
+    background-color: #275F4A;
+  }
+}
+
+.optionLabel {
+  margin-left: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.optionCurrency {
+  margin-left: 5px;
+  color: var(--profilebar-cash-dropdown-option-currency-color);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.body {
+  width: calc(100% - 16px);
+}

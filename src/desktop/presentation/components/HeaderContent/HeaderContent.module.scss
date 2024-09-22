@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+  min-width: fit-content;
+  column-gap: 15px;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 24px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 23px;
+}
+
+.erc20 {
+  margin-left: 16px;
+}
+
+.dropdowns {
+  display: flex;
+  align-items: center;
+}
+
+.goback {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border: 1px solid #3D2756;
+  border-radius: 50%;
+  transition: background-color .3s linear;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #3D1F5D;
+  }
+
+  &:active {
+    background-color: #5D2E8C;
+  }
+}

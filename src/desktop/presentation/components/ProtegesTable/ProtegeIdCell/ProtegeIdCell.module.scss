@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  width: 100%;
+
+  > * {
+    flex-shrink: 0;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 64px);
+}
+
+.nickname {
+  margin-bottom: 8px;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0.75;
+}
+
+.address {
+  color: rgba(119, 165, 149, 1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 0.8;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

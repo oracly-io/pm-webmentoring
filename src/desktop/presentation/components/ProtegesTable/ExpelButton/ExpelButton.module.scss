@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button {
+  width: fit-content;
+  height: 40px;
+  padding: 0 24px;
+  border: 1px solid #23342C;
+  border-radius: 77px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  background-color: #171C18;
+  transition: background-color .3s linear;
+
+  &:hover {
+    background-color: #275F4A;
+  }
+
+  &:active {
+    background-color: #596B47;
+  }
+}

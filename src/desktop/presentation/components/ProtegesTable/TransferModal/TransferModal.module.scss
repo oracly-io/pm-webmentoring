@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 530px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(27, 40, 34, 1);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
+
+.description {
+  margin-top: 25px;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.mentorid {
+  margin-top: 32px;
+  background-color: rgba(27, 40, 34, 1);
+  border-radius: 16px;
+  height: 56px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+
+  &::placeholder {
+    color: rgba(80, 110, 97, 1);
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+  margin-top: 40px;
+}
+
+.transfer {
+  height: 56px;
+  background: rgba(0, 146, 102, 1);
+  width: 232px;
+  border-radius: 100px;
+}
+
+.cancel {
+  width: 110px;
+  height: 48px;
+  background: rgba(35, 52, 44, 1);
+  border-radius: 100px;
+}

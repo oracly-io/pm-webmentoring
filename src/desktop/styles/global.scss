@@ -1,0 +1,19 @@
+.invisible {
+	visibility: hidden;
+}
+
+.hidden {
+	display: node;
+}
+
+#BOT-wrapper {
+  opacity: 0;
+  pointer-events: none;
+
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.1s ease-in-out;
+    transform: translate(-4px, -45px);
+  }
+}

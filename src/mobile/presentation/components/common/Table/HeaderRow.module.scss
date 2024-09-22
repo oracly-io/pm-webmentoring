@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  inset-block-start: 80px;
+  padding: 8px 0px;
+  border-radius: 32px;
+  background-color: #23342C;
+  z-index: 1;
+}

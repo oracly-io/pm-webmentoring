@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.amount {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.percent {
+  margin-left: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #77A595;
+}

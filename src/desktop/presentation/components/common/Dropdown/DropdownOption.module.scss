@@ -1,0 +1,24 @@
+.option {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 8px 8px 8px 8px;
+  margin-bottom: 2px;
+  border-radius: 20px;
+  background-color: #23342c;
+  transition: background-color .3s linear;
+  cursor: pointer;
+  user-select: none;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  &:hover {
+    background-color: #254437;
+  }
+
+  &:active {
+    background-color: #275F4A;
+  }
+}
